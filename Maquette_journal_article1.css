@@ -1,0 +1,93 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-image: url(background.png);
+  background-size: 100%;
+}
+/**********************début du header***************/
+
+header{
+   height: 100px;
+   width: 100%;
+   background-color: grey;
+}
+
+header p{
+    font-family: helvetica;
+    font-size: 25px;
+    display: inline-block;
+    margin-left: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+header h1{
+  font-family: helvetica;
+  padding-left: 25px;
+  padding-top: 25px;
+  display: inline-block;
+  text-decoration: underline;
+}
+/********************fin du header*******************/
+
+/************************nav******************************/
+nav{
+  height: 70px;
+  width: 100%;
+  background-color: white;
+}
+
+nav a{
+  text-decoration: none;
+  color: black;
+  font-family: helvetica;
+  margin-left: 50px;
+  margin-top: 26px;
+  position: absolute;
+}
+nav a:hover{
+  color: red;
+  font-weight: bolder;
+}
+/***********************fin nav**********************/
+
+/*********************début article*****************/
+
+article h1{
+  font-family: helvetica;
+  margin-top: 50px;
+  margin-left: 50px;
+  text-decoration: underline;
+  color: grey;
+}
+
+article p{
+  width: 600px;
+  font-family: helvetica;
+  color: white;
+  margin-left: 50px;
+  margin-top: 30px;
+  text-align:justify;
+}
+/********************début footer*******************/
+
+footer{
+  height: 100px;
+  width: 100%;
+  margin-top: 400px;
+  margin-bottom: 30px;
+
+}
+
+#date{
+  background-color: grey;
+  color: white;
+  font-family: helvetica;
+  font-size: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+}

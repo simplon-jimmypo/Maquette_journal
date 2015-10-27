@@ -1,0 +1,72 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-image: url(background.png);
+  background-size: 100%;
+}
+/**********************début du header***************/
+
+header{
+   height: 100px;
+   width: 100%;
+   background-color: grey;
+}
+
+header p{
+    font-family: helvetica;
+    font-size: 25px;
+    display: inline-block;
+    margin-left: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+header h1{
+  font-family: helvetica;
+  padding-left: 25px;
+  padding-top: 25px;
+  display: inline-block;
+  text-decoration: underline;
+}
+/********************fin du header*******************/
+
+/********************début d'article*****************/
+
+article h1{
+  margin-top: 280px;
+  margin-left: 50px;
+  font-family: helvetica;
+  font-size: 30px;
+  color: grey;
+  text-decoration: underline;
+  display: inline-block;
+}
+
+article h1 a{
+  color: grey;
+  text-decoration: none;
+}
+article h1 a:hover{
+  font-size: 35px;
+}
+
+footer{
+  height: 100px;
+  width: 100%;
+  margin-top: 400px;
+  margin-bottom: 30px;
+
+}
+
+#date{
+  background-color: grey;
+  color: white;
+  font-family: helvetica;
+  font-size: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+}
